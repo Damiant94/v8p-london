@@ -1,0 +1,70 @@
+.Nav {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    font-size: 1.4vw;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(0.4rem);
+    animation-name: show-nav;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    transform: translateY(-100%);
+    padding: 0 2rem;
+
+    @keyframes show-nav{
+        0% {
+            transform: translateY(-100%);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        
+        > li {
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                padding: 10px 30px;
+                cursor: pointer;
+                text-decoration: none;
+                color: #fff;
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.2);
+                }
+            }
+
+            > .OurServiceSubmenu {
+                display: none;
+                background-color: rgba(0, 0, 0, 0.4);
+                backdrop-filter: blur(0.4rem);
+                > ul {
+                    list-style: none;
+                }
+            }
+
+            &:hover {
+                position: relative;
+
+                > .OurServiceSubmenu {
+                    display: block;
+                    position: absolute;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
