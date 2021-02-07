@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import classes from './Home.module.scss';
 
 const home = () => {
@@ -9,7 +10,11 @@ const home = () => {
                     <h1>Welcome to V8P London</h1>
                     <h2>We'll make your car awesome!</h2>
                     <div className={classes.SeeMoreWrapper}>
-                        <div className={classes.SeeMoreBtn}>About Us</div>
+                        <Link to="/About-us">
+                            <div className={classes.SeeMoreBtn}>
+                                About Us
+                            </div>
+                        </Link>
                     </div>
                     <div className={classes.LogoWrapper}>
                         <div className={classes.Logo}></div>
