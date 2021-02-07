@@ -22,10 +22,10 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/About-us" component={AboutUs} />
           <Route exact path="/Our-service" component={OurService} />
-          <Route exact path="/Bodywork" component={Bodywork} />
-          <Route exact path="/Repairs" component={Repairs} />
-          <Route exact path="/Servicing" component={Servicing} />
-          <Route exact path="/Tuning" component={Tuning} />
+          <Route exact path="/Our-service/Bodywork" component={Bodywork} />
+          <Route exact path="/Our-service/Repairs" component={Repairs} />
+          <Route exact path="/Our-service/Servicing" component={Servicing} />
+          <Route exact path="/Our-service/Tuning" component={Tuning} />
           <Route exact path="/Special-offers" component={SpecialOffers} />
           <Route exact path="/Gallery" component={Gallery} />
           <Route exact path="/Contact" component={Contact} />

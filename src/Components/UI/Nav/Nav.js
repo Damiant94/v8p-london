@@ -22,7 +22,7 @@ class Nav extends Component {
                     this.nav.current.classList.remove(classes.open);
                 }
             }
-        })
+        });
 
         return (
             <Fragment>
@@ -34,10 +34,10 @@ class Nav extends Component {
                             <NavLink activeClassName={classes.active} to="/Our-service">Our Service</NavLink>
                             <div className={classes.OurServiceSubmenu}>
                                 <ul>
-                                    <li><NavLink activeClassName={classes.active} to="/Bodywork">Bodywork</NavLink></li>
-                                    <li><NavLink activeClassName={classes.active} to="/Repairs">Repairs</NavLink></li>
-                                    <li><NavLink activeClassName={classes.active} to="/Servicing">Servicing</NavLink></li>
-                                    <li><NavLink activeClassName={classes.active} to="/Tuning">Tuning</NavLink></li>
+                                    <li><NavLink activeClassName={classes.active} to="/Our-service/Bodywork">Bodywork</NavLink></li>
+                                    <li><NavLink activeClassName={classes.active} to="/Our-service/Repairs">Repairs</NavLink></li>
+                                    <li><NavLink activeClassName={classes.active} to="/Our-service/Servicing">Servicing</NavLink></li>
+                                    <li><NavLink activeClassName={classes.active} to="/Our-service/Tuning">Tuning</NavLink></li>
                                 </ul>
                             </div>
                         </li>
