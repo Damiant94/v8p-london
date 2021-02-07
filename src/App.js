@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import './App.scss';
 import Nav from "./Components/UI/Nav/Nav";
 
@@ -20,6 +20,7 @@ function App() {
         <Nav />
         <Switch>
           <Route exact path="/Home" component={Home} />
+          <Redirect from="/" to="/Home" />
           <Route exact path="/About-us" component={AboutUs} />
           <Route exact path="/Our-service" component={OurService} />
           <Route exact path="/Bodywork" component={Bodywork} />
