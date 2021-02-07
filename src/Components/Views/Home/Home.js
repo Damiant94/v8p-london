@@ -7,7 +7,7 @@ const home = () => {
         <section className={classes.Home}>
             <div className={classes.Container}>
                 <div className={classes.Headers}>
-                    <h1>Welcome to V8P London</h1>
+                    <h1>Welcome to V8P&nbsp;London</h1>
                     <h2>We'll make your car awesome!</h2>
                     <div className={classes.SeeMoreWrapper}>
                         <Link to="/Our-service">
