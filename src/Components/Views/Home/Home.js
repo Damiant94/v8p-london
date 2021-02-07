@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import classes from './Home.module.scss';
 
 const home = () => {
+
     return (
         <section className={classes.Home}>
             <div className={classes.Container}>

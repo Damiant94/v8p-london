@@ -28,14 +28,14 @@
             align-items: flex-start;
             backdrop-filter: blur(0.3rem);
             border-radius: 20px;
-            padding: 1.5vw;
+            padding: 20px;
     
             h1 {
-                font-size: 5vw;
+                font-size: 68px;
             }
     
             h2 {
-                font-size: 2.5vw;
+                font-size: 34px;
                 margin-bottom: 2rem;
             }
     
@@ -52,9 +52,9 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    font-size: 2vw;
-                    width: 16vw;
-                    height: 8vw;
+                    font-size: 27px;
+                    width: 220px;
+                    height: 110px;
                     background-color: rgba(0, 150, 0, 0.5);
                     border-radius: 20px;
                     cursor: pointer;
@@ -68,16 +68,70 @@
     
             .LogoWrapper {
                 position: absolute;
-                right: -2vw;
-                top: 10vw;
+                right: -10px;
+                top: 130px;
                 > .Logo {
                     background: url("../../../Assets/img/logo.jpg") no-repeat center;
                     background-size: cover;
-                    width: 25vw;
-                    height: 25vw;
+                    width: 300px;
+                    height: 300px;
                     border-radius: 50%;
                 }
             }
         }
     }
 }
+
+@media (max-width: 1000px) {
+    .Home {
+
+    
+        .Container {
+            height: 60%;
+            justify-content: flex-start;
+
+            .Headers {
+
+                h1 {
+                    font-size: 46px;
+                }
+        
+                h2 {
+                    font-size: 23px;
+                }
+        
+                .SeeMoreWrapper {
+                    z-index: 2;
+                    align-self: center;
+    
+                }
+        
+                .LogoWrapper {
+                    left: 50%;
+                    top: 400px;
+                    width: 300px;
+                    height: 300px;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 410px) {
+    .Home {
+        .Container {
+            .Headers {
+                .LogoWrapper {
+                    left: 50%;
+                    top: 450px;
+                    width: 300px;
+                    height: 300px;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+    }
+}
+
+
