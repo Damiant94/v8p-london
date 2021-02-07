@@ -1,4 +1,4 @@
-import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch} from "react-router-dom";
 import './App.scss';
 import Nav from "./Components/UI/Nav/Nav";
 
