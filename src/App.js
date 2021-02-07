@@ -20,7 +20,7 @@ function App() {
         <Nav />
         <Switch>
           <Route exact path="/Home" component={Home} />
-          <Redirect from="/" to="/Home" />
+          <Redirect exact from="/" to="/Home" />
           <Route exact path="/About-us" component={AboutUs} />
           <Route exact path="/Our-service" component={OurService} />
           <Route exact path="/Bodywork" component={Bodywork} />
