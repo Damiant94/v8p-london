@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/v8p-london/static/css/main.03a82cac.chunk.css",
-    "main.js": "/v8p-london/static/js/main.0f8ac935.chunk.js",
-    "main.js.map": "/v8p-london/static/js/main.0f8ac935.chunk.js.map",
+    "main.css": "/v8p-london/static/css/main.295acef7.chunk.css",
+    "main.js": "/v8p-london/static/js/main.ef89a382.chunk.js",
+    "main.js.map": "/v8p-london/static/js/main.ef89a382.chunk.js.map",
     "runtime-main.js": "/v8p-london/static/js/runtime-main.697b4905.js",
     "runtime-main.js.map": "/v8p-london/static/js/runtime-main.697b4905.js.map",
     "static/js/2.5a65a214.chunk.js": "/v8p-london/static/js/2.5a65a214.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f01722da.chunk.js": "/v8p-london/static/js/3.f01722da.chunk.js",
     "static/js/3.f01722da.chunk.js.map": "/v8p-london/static/js/3.f01722da.chunk.js.map",
     "index.html": "/v8p-london/index.html",
-    "static/css/main.03a82cac.chunk.css.map": "/v8p-london/static/css/main.03a82cac.chunk.css.map",
+    "static/css/main.295acef7.chunk.css.map": "/v8p-london/static/css/main.295acef7.chunk.css.map",
     "static/js/2.5a65a214.chunk.js.LICENSE.txt": "/v8p-london/static/js/2.5a65a214.chunk.js.LICENSE.txt",
     "static/media/Contact.module.scss": "/v8p-london/static/media/greencar.fb6f48ce.jpg",
     "static/media/Home.module.scss": "/v8p-london/static/media/logo.47f76f23.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.697b4905.js",
     "static/js/2.5a65a214.chunk.js",
-    "static/css/main.03a82cac.chunk.css",
-    "static/js/main.0f8ac935.chunk.js"
+    "static/css/main.295acef7.chunk.css",
+    "static/js/main.ef89a382.chunk.js"
   ]
 }
