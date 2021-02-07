@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import './App.scss';
 import Nav from "./Components/UI/Nav/Nav";
 
@@ -15,12 +15,11 @@ import Contact from "./Components/Views/Contact/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Nav />
         <Switch>
-          <Route exact path="/Home" component={Home} />
-          <Redirect exact from="/" to="/Home" />
+          <Route exact path="/" component={Home} />
           <Route exact path="/About-us" component={AboutUs} />
           <Route exact path="/Our-service" component={OurService} />
           <Route exact path="/Bodywork" component={Bodywork} />
@@ -32,7 +31,7 @@ function App() {
           <Route exact path="/Contact" component={Contact} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
