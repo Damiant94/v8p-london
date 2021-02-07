@@ -10,11 +10,19 @@ class Nav extends Component {
     }
 
     render() {
-
         this.toggleClickHandler = () => {
             this.toggleBtn.current.classList.toggle(classes.open);
             this.nav.current.classList.toggle(classes.open);
         };
+
+        document.addEventListener("click", ({target}) => {
+            if (target.nodeName !== "A" && target.nodeName !=="SPAN" && target !== this.toggleBtn.current) {
+                if (this.toggleBtn.current.className.includes(classes.open)) {
+                    this.toggleBtn.current.classList.remove(classes.open);
+                    this.nav.current.classList.remove(classes.open);
+                }
+            }
+        })
 
         return (
             <Fragment>

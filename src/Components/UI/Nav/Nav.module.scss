@@ -11,7 +11,7 @@
     // animation-delay: 0.5s;
     // animation-fill-mode: forwards;
     // transform: translateY(-100%);
-    padding: 0 2rem;
+    // padding: 0 2rem;
 
     // @keyframes show-nav{
     //     0% {
@@ -50,7 +50,7 @@
 
             > .OurServiceSubmenu {
                 display: none;
-                background-color: rgba(0, 0, 0, 0.9);
+                background-color: rgba(0, 0, 0, 0.95);
                 // backdrop-filter: blur(0.4rem);
                 > ul {
                     list-style: none;
@@ -136,7 +136,7 @@
     .Nav {
         width: auto;
         right: 0;
-        transform: translateX(100%);
+        transform: translateX(100%) translateY(5rem);
         transition: all 0.5s ease-in-out;
         opacity: 0;
         backdrop-filter: blur(0.8rem);
@@ -144,8 +144,10 @@
             flex-direction: column;
 
             > li {
+                width: 100%;
                 a {
                     padding: 20px 25px;
+                    text-align: center;
                 } 
                 &:hover {
                     > .OurServiceSubmenu {
@@ -156,7 +158,7 @@
         }
 
         &.open {
-            transform: translateX(0);
+            transform: translateX(0) translateY(5rem);
             opacity: 1;
         }
     }
