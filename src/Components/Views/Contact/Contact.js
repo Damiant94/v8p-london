@@ -1,8 +1,11 @@
 import React from 'react';
+import classes from './Contact.module.scss';
 
 const contact = () => {
     return (
-        <p>contact</p>
+        <section className={classes.Contact}>
+            <p>contact</p>
+        </section>
     );
 };
 

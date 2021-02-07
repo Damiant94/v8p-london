@@ -1,8 +1,11 @@
 import React from 'react';
+import classes from './AboutUs.module.scss';
 
 const aboutUs = () => {
     return (
-        <p>About Us</p>
+        <section className={classes.AboutUs}>
+            <p>About Us</p>
+        </section>
     );
 };
 

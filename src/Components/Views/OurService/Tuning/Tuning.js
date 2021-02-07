@@ -1,8 +1,11 @@
 import React from 'react';
+import classes from './Tuning.module.scss';
 
 const tuning = () => {
     return (
-        <p>tuning</p>
+        <section className={classes.Tuning}>
+            <p>tuning</p>
+        </section>
     );
 };
 

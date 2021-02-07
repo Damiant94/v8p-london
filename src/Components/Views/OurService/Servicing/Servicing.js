@@ -1,8 +1,11 @@
 import React from 'react';
+import classes from './Servicing.module.scss';
 
 const servicing = () => {
     return (
-        <p>servicing</p>
+        <section className={classes.Servicing}>
+            <p>servicing</p>
+        </section>
     );
 };
 

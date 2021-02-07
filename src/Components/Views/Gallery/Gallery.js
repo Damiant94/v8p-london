@@ -1,8 +1,11 @@
 import React from 'react';
+import classes from './Gallery.module.scss';
 
 const gallery = () => {
     return (
-        <p>Gallery</p>
+        <section className={classes.Gallery}>
+            <p>Gallery</p>
+        </section>
     );
 };
 

@@ -1,8 +1,11 @@
 import React from 'react';
+import classes from './SpecialOffers.module.scss';
 
 const specialOffers = () => {
     return (
-        <p>specialOffers</p>
+        <section className={classes.SpecialOffers}>
+            <p>specialOffers</p>
+        </section>
     );
 };
 

@@ -1,8 +1,11 @@
 import React from 'react';
+import classes from './Bodywork.module.scss';
 
 const bodywork = () => {
     return (
-        <p>bodywork</p>
+        <section className={classes.Bodywork}>
+            <p>bodywork</p>
+        </section>
     );
 };
 
