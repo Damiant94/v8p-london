@@ -6,23 +6,6 @@
 
     background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(0.4rem);
-    // animation-name: show-nav;
-    // animation-duration: 1s;
-    // animation-delay: 0.5s;
-    // animation-fill-mode: forwards;
-    // transform: translateY(-100%);
-    // padding: 0 2rem;
-
-    // @keyframes show-nav{
-    //     0% {
-    //         transform: translateY(-100%);
-    //     }
-
-    //     100% {
-    //         transform: translateY(0);
-    //     }
-    // }
-
     > ul {
         display: flex;
         flex-direction: row;
@@ -51,7 +34,6 @@
             > .OurServiceSubmenu {
                 display: none;
                 background-color: rgba(0, 0, 0, 0.95);
-                // backdrop-filter: blur(0.4rem);
                 > ul {
                     list-style: none;
                 }
@@ -77,18 +59,23 @@
     position: absolute;
     top: 10px;
     right: 10px;
-    // margin: 50px auto;
     transform: rotate(0deg);
     transition: .5s ease-in-out;
     cursor: pointer;
     display: none;
+
+    &:hover {
+        span {
+            background: rgb(0, 180, 0);
+        }
+    }
 
     span {
         display: block;
         position: absolute;
         height: 9px;
         width: 100%;
-        background: rgba(0, 150, 0, 1);
+        background: rgb(0, 150, 0);
         border-radius: 9px;
         opacity: 1;
         left: 0;
