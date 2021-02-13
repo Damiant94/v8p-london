@@ -6,13 +6,13 @@ const contact = () => {
     return (
         <section className={classes.Contact}>
             <h2>Have some questions?</h2>
-            <h3>Don't hesitate to contact us.</h3>
+            <h3>Feel free to contact us.</h3>
             <div className={classes.main}>
                 <div className={classes.contactImg}>
                     <img src={envelopeImg} />
                 </div>
                 <div className={classes.contactLinks}>
-                    <div><i className="fas fa-phone"></i>0904239234392</div>
+                    <div><a href="tel:+44 7740 028048"><i className="fas fa-phone"></i>+44 7740 028048</a></div>
                     <div><i className="far fa-envelope"></i>fsfsdfds@sdfdsf.sd</div>
                     <div><i className="fab fa-facebook"></i>facebook.com</div>
                 </div>
